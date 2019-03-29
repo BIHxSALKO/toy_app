@@ -4,5 +4,9 @@ class ApplicationController < ActionController::Base
     def hello
         render html: "hello, world!"
     end
-    
+
+    def chankoNabe
+        render html: "Chanko Nabe for you!"
+    end
+
 end
